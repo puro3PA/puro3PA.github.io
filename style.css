@@ -1,0 +1,79 @@
+#titulo { 
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+html, body, h1 {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.w-border {
+    border: 3px solid red
+}
+footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+header {
+    padding: 10px 10px 0 20px;
+    padding-left: 20px;
+    background-color: black;
+}
+
+nav {
+    background-color: black;
+    margin-bottom: 10px;
+    padding: 5px;
+    padding-left: 20px;
+}
+
+nav > a {
+    color: lightgrey;
+}
+
+nav > a:not(:first-child) {
+    color: lightgrey;
+    padding-left: 10px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex1 {
+    flex: 1;
+
+}
+
+.flex2 {
+    padding: 0 10px 0 20px;
+    padding-left: 20px;
+    flex: 2;
+}
+
+.rainbow_text_animated:hover {
+    background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 6s ease-in-out infinite;
+    background-size: 400% 100%;
+}
+
+@keyframes rainbow_animation {
+    0%,100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+}
+
