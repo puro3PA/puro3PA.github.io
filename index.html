@@ -4,10 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    
+    <title>Forbes2</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
 </head>
 <body>
-    <h1>soy angel</h1>
+    <header>
+        <h1 id="titulo">AmaroForbes</h1>
+    </header>
+    <nav>
+        <a href="">¿Quien soy?</a>
+        <a class="rainbow_text_animated" href="">Mi plan trillonario GRATIS!</a>
+    </nav>
+    <div class="flex">
+        <article class="flex2">
+            <section>
+                <h3>Como hacerse rico</h3>
+                <p>Hola, soy amaro y en este articulo te enseñare a convertirte en un millonario
+                    <br>Para generar riqueza, debe tener algunos fundamentos en su lugar: 
+                    <br> 
+                    1. La mentalidad de dinero lo es todo. 
+                    <br> 
+                    2. Los millonarios siguen presupuestando.
+                    <br> 
+                    3. La gestión del dinero es clave. 
+                    <br> 
+                    4. Invierte tu dinero para crecer. 
+                    <br> 
+                    5. Construya su negocio en torno a sus objetivos financieros personales. 
+                    <br> 
+                    6. Cree múltiples fuentes de ingresos.
+                </p>
+                <button>Ver mas...</button>
+            </section>
+            <section>
+                <h3>¿Qué es lo malo de ser millonario?</h3>
+             <p>Puede conllevar una gran presión para mantener y crecer la riqueza, ya que las expectativas, las comparaciones, o las expectativas sociales pueden generar una carga emocional o mental.</p>
+            </section>
+        </article>
+        <aside class="flex1">
+            <p2>
+            </p2>
+        </aside>
+    </div>
+    <footer>
+        <p>Derechos reservados AmaroForbes 2022</p>
+        <button id="border">Mostarar Bordes</button>
+    </footer>
+
 </body>
 </html>
+
+<script>
+    $('#border').click(function() {
+        $("header, nav, article, section, aside, footer").toggleClass( "w-border");
+    })
+</script>
