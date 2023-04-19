@@ -12,11 +12,10 @@ html, body, h1 {
     height: 100%;
 }
 .w-border {
-    border: 3px solid red
+    border: 3px solid #c74169
 }
 footer{
     width: 100%;
-    position: fixed;
     bottom: 0;
 }
 
@@ -77,3 +76,7 @@ nav > a:not(:first-child) {
     }
 }
 
+h4 {
+    color: rgb(136, 48, 63);
+    font-family: cursive
+}
